@@ -27,7 +27,7 @@ class Calculator{
 }
 
 public class Methods {
-    public static void main(String[] args) {
+    public static void main(Strings[] args) {
         
         Calculator obj = new Calculator();
         Calculator obj2 = new Calculator();

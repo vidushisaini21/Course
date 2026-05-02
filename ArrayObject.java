@@ -7,7 +7,7 @@ class Student {
 // Manually create the objects and assign to the array student
 
 public class ArrayObject {
-    public static void main(String[] args) {
+    public static void main(Strings[] args) {
         Student s1 = new Student();
         s1.rollno = 1;
         s1.name = "Alice";
