@@ -1,3 +1,5 @@
+package Inheritance;
+
 // every class in java extends Object 
 
 class A extends Object{
@@ -29,7 +31,7 @@ class B extends A{
 
 public class Inheriten {
     public static void main(String[] args) {
-        B obj = new B(8);
+        // B obj = new B(8);
         // B obj1 = new B();
     }
 }
