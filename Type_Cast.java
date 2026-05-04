@@ -30,5 +30,6 @@ public class Type_Cast {
         // If we try to downcast an object that is not an instance of B, it will throw a ClassCastException
         // A objA3 = new A();
         // B objB3 = (B) objA3; // This will throw a ClassCastException at runtime
+        
         }
 }
