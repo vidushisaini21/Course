@@ -1,6 +1,6 @@
 // exceptions try catch finally throw throws
 
-
+package EXCEPTIONS;
 public class Exceptions {
     public static void main(String[] args) {
         try {
@@ -51,5 +51,9 @@ public class Exceptions {
         if (age < 0) {
             throw new IllegalArgumentException("Age cannot be negative.");
         }
+    }
+    // Example of throws
+    public static void riskyMethod() throws Exception {
+        throw new Exception("Something went wrong in riskyMethod.");
     }
 }
