@@ -19,5 +19,22 @@ public class Example {
             System.out.println(status + " at position " + status.ordinal());
         }
 
+        switch (s) {
+            case Running:
+                System.out.println("Application is running.");
+                break;
+            
+            case Stopped:
+                System.out.println("Application is stopped.");
+                break;
+                
+            case Paused:
+                System.out.println("Application is paused.");
+                break;    
+        
+            default:
+                break;
+        }
+
     }
 }
